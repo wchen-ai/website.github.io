@@ -1,13 +1,10 @@
 ---
-title: Recent & Upcoming Talks
-cms_exclude: true
-#url: talk
+title: Talks & Presentations
+view: article-grid
 
-# View
-view: card
-
-# Optional cover image (relative to `assets/media/` folder).
-image:
-  caption: ''
-  filename: ''
+cascade:
+  - _target:
+      kind: page
+    params:
+      show_breadcrumb: true
 ---

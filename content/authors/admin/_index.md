@@ -11,7 +11,7 @@ last_name: Chen
 
 # Status emoji
 status:
-  icon: 🧠
+  icon: 🔬
 
 # Is this the primary user of the site?
 superuser: true
@@ -30,7 +30,7 @@ organizations:
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'mailto:convez.chen@google.com'
+    url: 'mailto:chen.weijie@mayo.edu'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/wchen-ai

@@ -1,4 +1,5 @@
 ---
 title: Blog
-view: article-grid
+summary: Personal reflections on research, technology, and life.
+view: date-title-summary
 ---
