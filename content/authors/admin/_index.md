@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Weijie Chen
+title: Winston (Weijie) Chen
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -11,7 +11,7 @@ last_name: Chen
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧠
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,18 +20,17 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Machine Learning Research Assistant
+role: Postdoctoral Research Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Wisconsin-Madison
-    url: https://mimrtl.radiology.wisc.edu/
+  - name: Mayo Clinic Arizona
+    url: https://www.mayoclinic.org/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:wchen376@wisc.edu'
+    url: 'mailto:convez.chen@google.com'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/WeijieChen2017
@@ -39,144 +38,95 @@ profiles:
     url: https://www.linkedin.com/in/winstonchen2017/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=K_IGI5AAAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1608-0899
 
 interests:
-  - Artificial Intelligence
-  - Medical Images
-  - Reliable AI
+  - Medical Image Analysis
+  - Vision–Language Foundation Models
+  - Reliable & Fair AI
+  - Federated Learning
 
 education:
-  - area: PhD of Electrical and Computer Engineering
+  - area: PhD in Electrical and Computer Engineering
     institution: University of Wisconsin-Madison
-    date_start: 2018
-    date_end: 2025
+    date_start: 2018-01-01
+    date_end: 2025-07-01
     summary: |
-      I am a PhD candidate in Electrical and Computer Engineering, specializing in AI and machine learning for healthcare applications. My research focuses on developing scalable AI solutions for medical imaging tasks such as image segmentation, synthetic CT generation, and uncertainty estimation. I work with advanced techniques like computer vision, natural language processing, and multimodal data analysis, leveraging deep learning frameworks like PyTorch, TensorFlow, and MONAI. I'm passionate about applying cutting-edge technologies like large language models and self-supervised learning to drive innovation in public health and clinical settings.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Research in machine learning for medical imaging — image segmentation, synthetic CT generation, uncertainty estimation, and multimodal learning. 7 published papers, 4 in submission, 5 conference presentations. Teaching Assistant for Machine Learning.
+  - area: BS in Electrical Engineering
+    institution: Southeast University, Nanjing, China
+    date_start: 2013-09-01
+    date_end: 2017-06-01
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Postdoctoral Research Fellow
+    company_name: Mayo Clinic Arizona
+    company_url: https://www.mayoclinic.org/
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-07-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Investigating vision–language foundation model embeddings for **Major Adverse Cardiovascular Event (MACE)** prediction from routine chest CT.
+      - Developing cross-modal representation alignment and methods to detect, quantify, and mitigate embedding biases for fair and reliable AI-driven risk estimates.
+  - position: Machine Learning Research Assistant
+    company_name: University of Wisconsin-Madison
+    company_url: https://mimrtl.radiology.wisc.edu/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2018-01-01
+    date_end: 2025-07-01
+    summary: |2-
+      - Deployed CNNs, Vision Transformers, and diffusion models for 3D medical image analysis.
+      - Collaborated with GE Healthcare (US) and Erasmus MC (NL) on end-to-end imaging projects.
+      - Mentored junior researchers in high-performance computing and ML best practices.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Python (Pandas, SciPy, PyTorch, MONAI)
+        description: ''
+        percent: 95
+        icon: code-bracket
+      - name: Machine Learning & Computer Vision
+        description: ''
+        percent: 90
+        icon: chart-bar
+      - name: MATLAB / Julia / SQL
+        description: ''
+        percent: 70
+        icon: circle-stack
+  - name: Tools & Platforms
+    color: '#0ea5e9'
+    color_border: '#38bdf8'
+    items:
+      - name: Linux / Docker / Slurm / HTCondor
+        description: ''
+        percent: 85
+        icon: code-bracket
+      - name: Git / Azure / AWS
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: VS Code / Colab / Anaconda
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        percent: 90
+        icon: code-bracket
 
 languages:
   - name: English
+    percent: 95
+  - name: Chinese (Mandarin)
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 1st Place — MICCAI HNTS-MRG 2024 Challenge
+    date: '2024-10-17'
+    awarder: MICCAI
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      First place among 48 global teams in the Head and Neck Tumor Segmentation for MR-Guided Applications challenge. Developed a pyramid CNN with spatial and temporal attention for longitudinal 3D MR segmentation across multiple treatment phases.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Postdoctoral Research Fellow at **Mayo Clinic Arizona**, working on AI-driven cardiovascular risk prediction from routine clinical imaging. My research focuses on leveraging vision–language foundation models to predict **Major Adverse Cardiovascular Events (MACE)** from non-gated chest CT and free-form clinical text, with a strong emphasis on fairness, reliability, and embedding bias mitigation.
+
+I completed my **PhD in Electrical and Computer Engineering** at the University of Wisconsin-Madison (2018–2025), where I developed deep learning solutions for medical image segmentation, synthetic CT generation, uncertainty estimation, and federated learning. My work has resulted in 7 published papers, 4 submissions, and 5 conference presentations at venues including MICCAI, ISBI, ISMRM, and SNMMI.
