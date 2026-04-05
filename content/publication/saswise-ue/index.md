@@ -10,5 +10,5 @@ abstract: |
 tags: ["Uncertainty Estimation", "Ensemble Learning", "Medical Imaging", "Segmentation", "Synthesis"]
 featured: true
 url_pdf: ''
-url_code: 'https://github.com/WeijieChen2017/SASWISE'
+url_code: 'https://github.com/wchen-ai/SASWISE'
 ---

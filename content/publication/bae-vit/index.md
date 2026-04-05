@@ -10,5 +10,5 @@ abstract: |
 tags: ["Vision Transformer", "Bone Age", "Multimodal Learning", "Medical Imaging"]
 featured: true
 url_pdf: ''
-url_code: 'https://github.com/WeijieChen2017/BAE_ViT'
+url_code: 'https://github.com/wchen-ai/BAE_ViT'
 ---

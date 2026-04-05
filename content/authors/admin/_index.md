@@ -33,7 +33,7 @@ profiles:
     url: 'mailto:convez.chen@google.com'
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/WeijieChen2017
+    url: https://github.com/wchen-ai
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/winstonchen2017/
   - icon: academicons/google-scholar
